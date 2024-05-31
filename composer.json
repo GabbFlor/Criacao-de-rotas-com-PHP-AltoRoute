@@ -1,0 +1,18 @@
+{
+    "name": "gabriel/roteamento-auto-router",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\RoteamentoAutoRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fl0rzinha",
+            "email": "gabriel.florindo.souza46@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}

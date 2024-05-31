@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Ensure the base path is correctly set
+RewriteBase /php/Teste-rotas-em-php/RoteamentoAutoRouter
+
+# Redirect all requests to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
